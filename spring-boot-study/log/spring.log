@@ -1,0 +1,193 @@
+2017-06-28 08:56:00.418  INFO 10036 --- [main] com.xq.spstudy.App                       : Starting App on NOTE-15037-PC with PID 10036 (started by sk-qianxiao in D:\源代码\Java\spring-boot-examples\spring-boot-study)
+2017-06-28 08:56:00.424  INFO 10036 --- [main] com.xq.spstudy.App                       : No active profile set, falling back to default profiles: default
+2017-06-28 08:56:00.547  INFO 10036 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@76329302: startup date [Wed Jun 28 08:56:00 CST 2017]; root of context hierarchy
+2017-06-28 08:56:03.496  INFO 10036 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-06-28 08:56:03.524  INFO 10036 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-06-28 08:56:03.525  INFO 10036 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-06-28 08:56:03.709  INFO 10036 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-06-28 08:56:03.710  INFO 10036 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3168 ms
+2017-06-28 08:56:03.997  INFO 10036 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-28 08:56:04.003  INFO 10036 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-28 08:56:04.003  INFO 10036 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-28 08:56:04.004  INFO 10036 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-28 08:56:04.004  INFO 10036 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-28 08:56:04.419  INFO 10036 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@76329302: startup date [Wed Jun 28 08:56:00 CST 2017]; root of context hierarchy
+2017-06-28 08:56:04.598  INFO 10036 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.xq.spstudy.App.home()
+2017-06-28 08:56:04.602  INFO 10036 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.xq.spstudy.controller.HelloWorldController.index()
+2017-06-28 08:56:04.604  INFO 10036 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getUser]}" onto public com.xq.spstudy.controller.User com.xq.spstudy.controller.HelloWorldController.getUser()
+2017-06-28 08:56:04.607  INFO 10036 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getPro]}" onto public com.xq.spstudy.controller.NeoProperties com.xq.spstudy.controller.HelloWorldController.getPro()
+2017-06-28 08:56:04.620  INFO 10036 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-28 08:56:04.621  INFO 10036 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-28 08:56:04.685  INFO 10036 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-28 08:56:04.685  INFO 10036 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-28 08:56:04.763  INFO 10036 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-28 08:56:05.057  INFO 10036 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-28 08:56:05.165  INFO 10036 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-06-28 08:56:05.171  INFO 10036 --- [main] com.xq.spstudy.App                       : Started App in 5.263 seconds (JVM running for 5.841)
+2017-06-28 08:56:08.022  INFO 10036 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-06-28 08:56:08.022  INFO 10036 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-06-28 08:56:08.046  INFO 10036 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2017-06-28 08:56:08.091 ERROR 10036 --- [http-nio-8080-exec-3] c.x.s.controller.HelloWorldController    : 发送简单邮件时发生异常！
+2017-06-28 08:58:08.328  INFO 5696 --- [main] com.xq.spstudy.App                       : Starting App on NOTE-15037-PC with PID 5696 (started by sk-qianxiao in D:\源代码\Java\spring-boot-examples\spring-boot-study)
+2017-06-28 08:58:08.333  INFO 5696 --- [main] com.xq.spstudy.App                       : No active profile set, falling back to default profiles: default
+2017-06-28 08:58:08.421  INFO 5696 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@365c30cc: startup date [Wed Jun 28 08:58:08 CST 2017]; root of context hierarchy
+2017-06-28 08:58:10.146  INFO 5696 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-28 08:58:10.162  INFO 5696 --- [main] com.xq.spstudy.App                       : Started App in 2.28 seconds (JVM running for 2.825)
+2017-06-28 08:58:10.163  INFO 5696 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@365c30cc: startup date [Wed Jun 28 08:58:08 CST 2017]; root of context hierarchy
+2017-06-28 08:58:10.164  INFO 5696 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-06-28 08:58:32.250  INFO 10996 --- [main] com.xq.spstudy.App                       : Starting App on NOTE-15037-PC with PID 10996 (started by sk-qianxiao in D:\源代码\Java\spring-boot-examples\spring-boot-study)
+2017-06-28 08:58:32.254  INFO 10996 --- [main] com.xq.spstudy.App                       : No active profile set, falling back to default profiles: default
+2017-06-28 08:58:32.338  INFO 10996 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@76329302: startup date [Wed Jun 28 08:58:32 CST 2017]; root of context hierarchy
+2017-06-28 08:58:34.370  INFO 10996 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-06-28 08:58:34.386  INFO 10996 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-06-28 08:58:34.388  INFO 10996 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-06-28 08:58:34.538  INFO 10996 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-06-28 08:58:34.538  INFO 10996 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2203 ms
+2017-06-28 08:58:34.731  INFO 10996 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-28 08:58:34.735  INFO 10996 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-28 08:58:34.737  INFO 10996 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-28 08:58:34.737  INFO 10996 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-28 08:58:34.737  INFO 10996 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-28 08:58:35.098  INFO 10996 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@76329302: startup date [Wed Jun 28 08:58:32 CST 2017]; root of context hierarchy
+2017-06-28 08:58:35.202  INFO 10996 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.xq.spstudy.App.home()
+2017-06-28 08:58:35.204  INFO 10996 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.xq.spstudy.controller.HelloWorldController.index()
+2017-06-28 08:58:35.205  INFO 10996 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getPro]}" onto public com.xq.spstudy.controller.NeoProperties com.xq.spstudy.controller.HelloWorldController.getPro()
+2017-06-28 08:58:35.205  INFO 10996 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getUser]}" onto public com.xq.spstudy.controller.User com.xq.spstudy.controller.HelloWorldController.getUser()
+2017-06-28 08:58:35.215  INFO 10996 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-28 08:58:35.217  INFO 10996 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-28 08:58:35.259  INFO 10996 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-28 08:58:35.259  INFO 10996 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-28 08:58:35.307  INFO 10996 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-28 08:58:35.528  INFO 10996 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-28 08:58:35.607  INFO 10996 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-06-28 08:58:35.613  INFO 10996 --- [main] com.xq.spstudy.App                       : Started App in 3.808 seconds (JVM running for 4.221)
+2017-06-28 09:05:35.192  INFO 10796 --- [main] com.xq.spstudy.App                       : Starting App on NOTE-15037-PC with PID 10796 (started by sk-qianxiao in D:\源代码\Java\spring-boot-examples\spring-boot-study)
+2017-06-28 09:05:35.198  INFO 10796 --- [main] com.xq.spstudy.App                       : No active profile set, falling back to default profiles: default
+2017-06-28 09:05:35.286  INFO 10796 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71a794e5: startup date [Wed Jun 28 09:05:35 CST 2017]; root of context hierarchy
+2017-06-28 09:05:37.396  INFO 10796 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-06-28 09:05:37.412  INFO 10796 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-06-28 09:05:37.414  INFO 10796 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-06-28 09:05:37.568  INFO 10796 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-06-28 09:05:37.569  INFO 10796 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2287 ms
+2017-06-28 09:05:37.788  INFO 10796 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-28 09:05:37.795  INFO 10796 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-28 09:05:37.796  INFO 10796 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-28 09:05:37.796  INFO 10796 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-28 09:05:37.797  INFO 10796 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-28 09:05:38.148  INFO 10796 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71a794e5: startup date [Wed Jun 28 09:05:35 CST 2017]; root of context hierarchy
+2017-06-28 09:05:38.235  INFO 10796 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.xq.spstudy.App.home()
+2017-06-28 09:05:38.237  INFO 10796 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.xq.spstudy.controller.HelloWorldController.index()
+2017-06-28 09:05:38.238  INFO 10796 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getPro]}" onto public com.xq.spstudy.controller.NeoProperties com.xq.spstudy.controller.HelloWorldController.getPro()
+2017-06-28 09:05:38.239  INFO 10796 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getUser]}" onto public com.xq.spstudy.controller.User com.xq.spstudy.controller.HelloWorldController.getUser()
+2017-06-28 09:05:38.243  INFO 10796 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-28 09:05:38.244  INFO 10796 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-28 09:05:38.286  INFO 10796 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-28 09:05:38.287  INFO 10796 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-28 09:05:38.351  INFO 10796 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-28 09:05:38.539  INFO 10796 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-28 09:05:38.619  INFO 10796 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-06-28 09:05:38.624  INFO 10796 --- [main] com.xq.spstudy.App                       : Started App in 3.852 seconds (JVM running for 4.284)
+2017-06-28 09:05:58.790  INFO 11736 --- [main] com.xq.spstudy.App                       : Starting App on NOTE-15037-PC with PID 11736 (started by sk-qianxiao in D:\源代码\Java\spring-boot-examples\spring-boot-study)
+2017-06-28 09:05:58.796  INFO 11736 --- [main] com.xq.spstudy.App                       : No active profile set, falling back to default profiles: default
+2017-06-28 09:05:58.878  INFO 11736 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@33cb5951: startup date [Wed Jun 28 09:05:58 CST 2017]; root of context hierarchy
+2017-06-28 09:06:00.406  INFO 11736 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-28 09:06:00.420  INFO 11736 --- [main] com.xq.spstudy.App                       : Started App in 2.059 seconds (JVM running for 2.488)
+2017-06-28 09:06:00.421  INFO 11736 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@33cb5951: startup date [Wed Jun 28 09:05:58 CST 2017]; root of context hierarchy
+2017-06-28 09:06:00.422  INFO 11736 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-06-28 15:27:15.025  INFO 12608 --- [main] com.xq.spstudy.App                       : Starting App on NOTE-15037-PC with PID 12608 (started by sk-qianxiao in D:\源代码\Java\spring-boot-examples\spring-boot-study)
+2017-06-28 15:27:15.030  INFO 12608 --- [main] com.xq.spstudy.App                       : No active profile set, falling back to default profiles: default
+2017-06-28 15:27:15.117  INFO 12608 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e25a92e: startup date [Wed Jun 28 15:27:15 CST 2017]; root of context hierarchy
+2017-06-28 15:27:17.397  INFO 12608 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-06-28 15:27:17.419  INFO 12608 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-06-28 15:27:17.421  INFO 12608 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-06-28 15:27:17.580  INFO 12608 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-06-28 15:27:17.581  INFO 12608 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2469 ms
+2017-06-28 15:27:17.790  INFO 12608 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-28 15:27:17.807  INFO 12608 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-28 15:27:17.807  INFO 12608 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-28 15:27:17.809  INFO 12608 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-28 15:27:17.810  INFO 12608 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-28 15:27:18.379  INFO 12608 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e25a92e: startup date [Wed Jun 28 15:27:15 CST 2017]; root of context hierarchy
+2017-06-28 15:27:18.496  INFO 12608 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.xq.spstudy.App.home()
+2017-06-28 15:27:18.500  INFO 12608 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.xq.spstudy.controller.HelloWorldController.index()
+2017-06-28 15:27:18.501  INFO 12608 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getPro]}" onto public com.xq.spstudy.controller.NeoProperties com.xq.spstudy.controller.HelloWorldController.getPro()
+2017-06-28 15:27:18.502  INFO 12608 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getUser]}" onto public com.xq.spstudy.controller.User com.xq.spstudy.controller.HelloWorldController.getUser()
+2017-06-28 15:27:18.511  INFO 12608 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-28 15:27:18.511  INFO 12608 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-28 15:27:18.557  INFO 12608 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-28 15:27:18.557  INFO 12608 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-28 15:27:18.608  INFO 12608 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-28 15:27:18.850  INFO 12608 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-28 15:27:18.923  INFO 12608 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-06-28 15:27:18.929  INFO 12608 --- [main] com.xq.spstudy.App                       : Started App in 4.387 seconds (JVM running for 4.856)
+2017-06-28 15:28:40.367  INFO 9440 --- [main] com.xq.spstudy.App                       : Starting App on NOTE-15037-PC with PID 9440 (started by sk-qianxiao in D:\源代码\Java\spring-boot-examples\spring-boot-study)
+2017-06-28 15:28:40.376  INFO 9440 --- [main] com.xq.spstudy.App                       : No active profile set, falling back to default profiles: default
+2017-06-28 15:28:40.470  INFO 9440 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@701fc37a: startup date [Wed Jun 28 15:28:40 CST 2017]; root of context hierarchy
+2017-06-28 15:28:42.457  INFO 9440 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-28 15:28:42.475  INFO 9440 --- [main] com.xq.spstudy.App                       : Started App in 2.538 seconds (JVM running for 2.96)
+2017-06-28 15:28:42.476  INFO 9440 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@701fc37a: startup date [Wed Jun 28 15:28:40 CST 2017]; root of context hierarchy
+2017-06-28 15:28:42.478  INFO 9440 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-06-28 15:32:09.451  INFO 9180 --- [main] com.xq.spstudy.App                       : Starting App on NOTE-15037-PC with PID 9180 (started by sk-qianxiao in D:\源代码\Java\spring-boot-examples\spring-boot-study)
+2017-06-28 15:32:09.457  INFO 9180 --- [main] com.xq.spstudy.App                       : No active profile set, falling back to default profiles: default
+2017-06-28 15:32:09.547  INFO 9180 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@701fc37a: startup date [Wed Jun 28 15:32:09 CST 2017]; root of context hierarchy
+2017-06-28 15:32:11.401  INFO 9180 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-28 15:32:11.418  INFO 9180 --- [main] com.xq.spstudy.App                       : Started App in 2.403 seconds (JVM running for 2.848)
+2017-06-28 15:32:11.420  INFO 9180 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@701fc37a: startup date [Wed Jun 28 15:32:09 CST 2017]; root of context hierarchy
+2017-06-28 15:32:11.422  INFO 9180 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-06-28 15:33:49.495  INFO 11552 --- [main] com.xq.spstudy.App                       : Starting App on NOTE-15037-PC with PID 11552 (started by sk-qianxiao in D:\源代码\Java\spring-boot-examples\spring-boot-study)
+2017-06-28 15:33:49.503  INFO 11552 --- [main] com.xq.spstudy.App                       : No active profile set, falling back to default profiles: default
+2017-06-28 15:33:49.603  INFO 11552 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@701fc37a: startup date [Wed Jun 28 15:33:49 CST 2017]; root of context hierarchy
+2017-06-28 15:33:51.525  INFO 11552 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-28 15:33:51.540  INFO 11552 --- [main] com.xq.spstudy.App                       : Started App in 2.45 seconds (JVM running for 2.877)
+2017-06-28 15:33:51.542  INFO 11552 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@701fc37a: startup date [Wed Jun 28 15:33:49 CST 2017]; root of context hierarchy
+2017-06-28 15:33:51.544  INFO 11552 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-06-28 15:35:51.161  INFO 2688 --- [main] com.xq.spstudy.App                       : Starting App on NOTE-15037-PC with PID 2688 (started by sk-qianxiao in D:\源代码\Java\spring-boot-examples\spring-boot-study)
+2017-06-28 15:35:51.166  INFO 2688 --- [main] com.xq.spstudy.App                       : No active profile set, falling back to default profiles: default
+2017-06-28 15:35:51.259  INFO 2688 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@701fc37a: startup date [Wed Jun 28 15:35:51 CST 2017]; root of context hierarchy
+2017-06-28 15:35:53.221  INFO 2688 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-28 15:35:53.250  INFO 2688 --- [main] com.xq.spstudy.App                       : Started App in 2.478 seconds (JVM running for 2.92)
+2017-06-28 15:35:53.252  INFO 2688 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@701fc37a: startup date [Wed Jun 28 15:35:51 CST 2017]; root of context hierarchy
+2017-06-28 15:35:53.255  INFO 2688 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-06-28 15:36:31.648  INFO 11412 --- [main] com.xq.spstudy.App                       : Starting App on NOTE-15037-PC with PID 11412 (started by sk-qianxiao in D:\源代码\Java\spring-boot-examples\spring-boot-study)
+2017-06-28 15:36:31.655  INFO 11412 --- [main] com.xq.spstudy.App                       : No active profile set, falling back to default profiles: default
+2017-06-28 15:36:31.773  INFO 11412 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@701fc37a: startup date [Wed Jun 28 15:36:31 CST 2017]; root of context hierarchy
+2017-06-28 15:36:33.787  INFO 11412 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-28 15:36:33.804  INFO 11412 --- [main] com.xq.spstudy.App                       : Started App in 2.573 seconds (JVM running for 3.083)
+2017-06-28 15:36:33.806  INFO 11412 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@701fc37a: startup date [Wed Jun 28 15:36:31 CST 2017]; root of context hierarchy
+2017-06-28 15:36:33.808  INFO 11412 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-06-28 15:40:26.698  INFO 12548 --- [main] com.xq.spstudy.App                       : Starting App on NOTE-15037-PC with PID 12548 (started by sk-qianxiao in D:\源代码\Java\spring-boot-examples\spring-boot-study)
+2017-06-28 15:40:26.707  INFO 12548 --- [main] com.xq.spstudy.App                       : No active profile set, falling back to default profiles: default
+2017-06-28 15:40:26.800  INFO 12548 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@701fc37a: startup date [Wed Jun 28 15:40:26 CST 2017]; root of context hierarchy
+2017-06-28 15:40:28.466  INFO 12548 --- [main] com.xq.spstudy.netty.NettyServer         : Starting server at /0.0.0.0:3636
+2017-06-28 15:40:29.475  INFO 12548 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-28 15:40:29.493  INFO 12548 --- [main] com.xq.spstudy.App                       : Started App in 3.182 seconds (JVM running for 3.658)
+2017-06-28 15:41:45.109  INFO 1460 --- [main] com.xq.spstudy.App                       : Starting App on NOTE-15037-PC with PID 1460 (started by sk-qianxiao in D:\源代码\Java\spring-boot-examples\spring-boot-study)
+2017-06-28 15:41:45.114  INFO 1460 --- [main] com.xq.spstudy.App                       : No active profile set, falling back to default profiles: default
+2017-06-28 15:41:45.202  INFO 1460 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@701fc37a: startup date [Wed Jun 28 15:41:45 CST 2017]; root of context hierarchy
+2017-06-28 15:41:46.830  INFO 1460 --- [main] com.xq.spstudy.netty.NettyServer         : Starting server at /0.0.0.0:3636
+2017-06-28 15:41:47.797  INFO 1460 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-28 15:41:47.813  INFO 1460 --- [main] com.xq.spstudy.App                       : Started App in 3.078 seconds (JVM running for 3.522)
+2017-06-28 15:42:26.744  INFO 1132 --- [main] com.xq.spstudy.App                       : Starting App on NOTE-15037-PC with PID 1132 (started by sk-qianxiao in D:\源代码\Java\spring-boot-examples\spring-boot-study)
+2017-06-28 15:42:26.752  INFO 1132 --- [main] com.xq.spstudy.App                       : No active profile set, falling back to default profiles: default
+2017-06-28 15:42:26.863  INFO 1132 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@701fc37a: startup date [Wed Jun 28 15:42:26 CST 2017]; root of context hierarchy
+2017-06-28 15:42:28.366  INFO 1132 --- [main] com.xq.spstudy.netty.NettyServer         : Starting server at /0.0.0.0:3636
+2017-06-28 15:42:29.210  INFO 1132 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-28 15:42:29.228  INFO 1132 --- [main] com.xq.spstudy.App                       : Started App in 2.866 seconds (JVM running for 3.316)
+2017-06-28 15:51:29.842  INFO 8456 --- [main] com.xq.spstudy.App                       : Starting App on NOTE-15037-PC with PID 8456 (started by sk-qianxiao in D:\源代码\Java\spring-boot-examples\spring-boot-study)
+2017-06-28 15:51:29.847  INFO 8456 --- [main] com.xq.spstudy.App                       : No active profile set, falling back to default profiles: default
+2017-06-28 15:51:29.948  INFO 8456 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@701fc37a: startup date [Wed Jun 28 15:51:29 CST 2017]; root of context hierarchy
+2017-06-28 15:51:31.543  INFO 8456 --- [main] com.xq.spstudy.netty.NettyServer         : Starting server at /0.0.0.0:3636
+2017-06-28 15:51:32.410  INFO 8456 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-28 15:51:32.426  INFO 8456 --- [main] com.xq.spstudy.App                       : Started App in 2.977 seconds (JVM running for 3.394)
+2017-06-28 15:57:04.735  INFO 8636 --- [main] com.xq.spstudy.App                       : Starting App on NOTE-15037-PC with PID 8636 (started by sk-qianxiao in D:\源代码\Java\spring-boot-examples\spring-boot-study)
+2017-06-28 15:57:04.740  INFO 8636 --- [main] com.xq.spstudy.App                       : No active profile set, falling back to default profiles: default
+2017-06-28 15:57:04.831  INFO 8636 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@701fc37a: startup date [Wed Jun 28 15:57:04 CST 2017]; root of context hierarchy
+2017-06-28 15:57:06.489  INFO 8636 --- [main] com.xq.spstudy.netty.NettyServer         : Starting server at /0.0.0.0:3636
+2017-06-28 15:57:07.372  INFO 8636 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-28 15:57:07.388  INFO 8636 --- [main] com.xq.spstudy.App                       : Started App in 3.036 seconds (JVM running for 3.468)
+2017-06-28 18:31:47.864  INFO 11768 --- [main] com.xq.spstudy.App                       : Starting App on NOTE-15037-PC with PID 11768 (started by sk-qianxiao in D:\源代码\Java\spring-boot-examples\spring-boot-study)
+2017-06-28 18:31:47.868  INFO 11768 --- [main] com.xq.spstudy.App                       : No active profile set, falling back to default profiles: default
+2017-06-28 18:31:47.972  INFO 11768 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@701fc37a: startup date [Wed Jun 28 18:31:47 CST 2017]; root of context hierarchy
+2017-06-28 18:31:50.068  INFO 11768 --- [main] com.xq.spstudy.netty.NettyServer         : Starting server at /0.0.0.0:3636
+2017-06-28 18:31:51.075  INFO 11768 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-28 18:31:51.101  INFO 11768 --- [main] com.xq.spstudy.App                       : Started App in 3.717 seconds (JVM running for 4.387)
