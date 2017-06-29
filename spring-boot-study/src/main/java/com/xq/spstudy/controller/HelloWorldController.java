@@ -1,16 +1,19 @@
 package com.xq.spstudy.controller;
 
+import org.apache.kafka.common.utils.Bytes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.xq.spstudy.kafka.KafkaProduce;
+
 @RestController
 public class HelloWorldController {
-	
 	//返回字符串
     @RequestMapping("/hello")
     public String index() {
@@ -39,6 +42,15 @@ public class HelloWorldController {
 		LOGGER.error("发送简单邮件时发生异常！");
 		
     	return neoProperties;
+    }
+    
+    
+    @Autowired
+    KafkaProduce  ktest;
+    //测试发送给kafka
+    @RequestMapping("/tks")
+    public String tks(){
+    	return ktest.kafkaSend();
     }
 }
 
