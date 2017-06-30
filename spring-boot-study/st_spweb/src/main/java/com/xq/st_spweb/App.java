@@ -1,4 +1,4 @@
-package com.xq.spstudy;
+package com.xq.st_spweb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,6 +17,5 @@ public class App {
 	
     public static void main(String[] args) {
     	SpringApplication.run(App.class, args);	//运行web服务
-//    	 new SpringApplicationBuilder(App.class).web(false).run(args);
     }
 }

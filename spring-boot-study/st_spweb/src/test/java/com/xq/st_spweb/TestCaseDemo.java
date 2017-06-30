@@ -1,4 +1,4 @@
-package com.xq.spstudy.junit;
+package com.xq.st_spweb;
 
 import junit.framework.TestCase;
 
