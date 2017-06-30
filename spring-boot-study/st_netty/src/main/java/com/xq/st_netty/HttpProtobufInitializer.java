@@ -1,16 +1,15 @@
 package com.xq.st_netty;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+//import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.stereotype.Component;
+
 //import com.skspruce.nms.data.collector.KafkaProducerConfiguration;
 //import com.skspruce.nms.data.collector.netty.handlers.HttpProtobufHandler;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.handler.codec.http.HttpObjectAggregator;
 import io.netty.handler.codec.http.HttpServerCodec;
-//import org.apache.kafka.common.utils.Bytes;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-//import org.springframework.kafka.core.KafkaTemplate;
-import org.springframework.stereotype.Component;
 
 /**
  * Created by sk-ziconglu on 2017/3/10.
