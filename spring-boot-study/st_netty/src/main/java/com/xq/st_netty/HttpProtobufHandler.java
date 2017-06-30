@@ -1,4 +1,4 @@
-package com.xq.spstudy.netty;
+package com.xq.st_netty;
 
 import java.net.URI;
 

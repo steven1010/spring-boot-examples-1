@@ -1,4 +1,4 @@
-package com.xq.spstudy.netty;
+package com.xq.st_netty;
 
 //import com.skspruce.nms.data.collector.KafkaProducerConfiguration;
 //import com.skspruce.nms.data.collector.netty.handlers.HttpProtobufHandler;
