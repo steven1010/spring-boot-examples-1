@@ -17,6 +17,7 @@
 	<modules>
 		<module>st_netty</module>
 		<module>st_spweb</module>
+		<module>st_jsreport</module>
 	</modules>
 
 	<properties>
