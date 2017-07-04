@@ -23,49 +23,31 @@
  */
 package com.xq.st_jsreport;
 
-import java.awt.Color;
 import java.io.File;
 
 import net.sf.jasperreports.engine.JRDataSource;
 import net.sf.jasperreports.engine.JRException;
-import net.sf.jasperreports.engine.JRRectangle;
-import net.sf.jasperreports.engine.JRStyle;
 import net.sf.jasperreports.engine.JasperCompileManager;
 import net.sf.jasperreports.engine.JasperExportManager;
 import net.sf.jasperreports.engine.JasperFillManager;
 import net.sf.jasperreports.engine.JasperPrint;
-import net.sf.jasperreports.engine.JasperPrintManager;
 import net.sf.jasperreports.engine.JasperReport;
 import net.sf.jasperreports.engine.util.JRLoader;
 import net.sf.jasperreports.engine.util.JRSaver;
 
-public class Test2 {
+public class Test3_bar {
 
 	// 生成Jasper report 对象
 	public static void withJasperObject() {
 		try {
-			JasperCompileManager.compileReportToFile("d://jrxml/test2.jrxml", "d://jrxml_out/test2.jasper");
+			JasperCompileManager.compileReportToFile("d://jrxml/test3_bar.jrxml", "d://jrxml_out/test3_bar.jasper");
 
 			long start = System.currentTimeMillis();
-			File sourceFile = new File("d://jrxml_out/test2.jasper");
+			File sourceFile = new File("d://jrxml_out/test3_bar.jasper");
 			System.out.println(" : " + sourceFile.getAbsolutePath());
 			JasperReport jasperReport = (JasperReport) JRLoader.loadObject(sourceFile);
 
-			JRRectangle rectangle = (JRRectangle) jasperReport.getTitle().getElementByKey("first.rectangle");
-			rectangle.setForecolor(new Color((int) (16000000 * Math.random())));
-			rectangle.setBackcolor(new Color((int) (16000000 * Math.random())));
-
-			rectangle = (JRRectangle) jasperReport.getTitle().getElementByKey("second.rectangle");
-			rectangle.setForecolor(new Color((int) (16000000 * Math.random())));
-			rectangle.setBackcolor(new Color((int) (16000000 * Math.random())));
-
-			rectangle = (JRRectangle) jasperReport.getTitle().getElementByKey("third.rectangle");
-			rectangle.setForecolor(new Color((int) (16000000 * Math.random())));
-			rectangle.setBackcolor(new Color((int) (16000000 * Math.random())));
-
-			JRStyle style = jasperReport.getStyles()[0];
-			style.setFontSize(16f);
-			style.setItalic(true);
+		
 
 			JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, null, (JRDataSource) null);
 
@@ -78,23 +60,10 @@ public class Test2 {
 		}
 	}
 
-	// 打印
-	public static void print() {
-		try {
-			long start = System.currentTimeMillis();
-			JasperPrintManager.printReport("d://jrxml_out/test2.jrprint", true);
-			System.err.println("Printing time : " + (System.currentTimeMillis() - start));
-		} catch (JRException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-	}
-
 	public static void pdf() {
 		try {
 			long start = System.currentTimeMillis();
-			JasperExportManager.exportReportToPdfFile("d://jrxml_out/test2.jrprint");
+			JasperExportManager.exportReportToPdfFile("d://jrxml_out/test3_bar.jrprint");
 			System.err.println("PDF creation time : " + (System.currentTimeMillis() - start));
 		} catch (JRException e) {
 			// TODO Auto-generated catch block
@@ -105,7 +74,6 @@ public class Test2 {
 
 	public static void main(String[] args) {
 		withJasperObject();
-		// print(); //打印机打印
 		pdf();
 	}
 
