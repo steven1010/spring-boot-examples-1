@@ -21,13 +21,13 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with JasperReports. If not, see <http://www.gnu.org/licenses/>.
  */
-package com.xq.st_jsreport;
+package com.xq.st_jsreport.antcompile;
 
 
 /**
  * @author Teodor Danciu (teodord@users.sourceforge.net)
  */
-public class SomeFooClass
+public class SomeBarClass
 {
 
 
@@ -38,6 +38,4 @@ public class SomeFooClass
 	{
 		return Boolean.TRUE;
 	}
-
-
 }
