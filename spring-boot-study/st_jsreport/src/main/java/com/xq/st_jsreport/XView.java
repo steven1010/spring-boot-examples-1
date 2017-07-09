@@ -59,6 +59,7 @@ public class XView {
 			JasperFillManager.fillReportToFile("d://jrxml_out/view.jasper", "d://jrxml_out/view.jrprint", null,
 					new JREmptyDataSource(1));
 
+
 			// 预览报表，false代表不是使用XML文件。
 			JasperViewer view = new JasperViewer("d://jrxml_out/view.jrprint", false);
 			//view.pack();
