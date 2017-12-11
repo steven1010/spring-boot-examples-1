@@ -7,17 +7,29 @@
     <artifactId>study-spring-boot-examples</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>cached</module>
-        <module>database</module>
-        <module>elasticjob</module>
-        <module>JDK</module>
-        <module>mq</module>
-        <module>netty</module>
-        <module>rest_swaggar</module>
-        <module>spring-cloud-demo</module>
-        <module>spring-study</module>
-        <module>zk-curator</module>
-        <module>zk-zookeeper</module>
+        <module>MyBlog</module>
+        <module>quick-ElasticSearch</module>
+        <module>quick-img2txt</module>
+        <module>quick-log</module>
+        <module>quick-mybatis-druid</module>
+        <module>quick-oauth2</module>
+        <module>quick-oss</module>
+        <module>quick-package-assembly</module>
+        <module>quick-package-assembly-multi-env</module>
+        <module>quick-tika</module>
+        <module>quick-wx-api</module>
+        <module>spring-boot-mybatis-annotation</module>
+        <module>spring-boot-mybatis-annotation-mulidatasource</module>
+        <module>spring-boot-mybatis-mulidatasource</module>
+        <module>spring-boot-mybatis-xml</module>
+        <module>spring-boot-shiro</module>
+        <module>Test27-mybatis3</module>
+        <module>Test27-mybatis4</module>
+        <module>Test27-mybatis5</module>
+        <module>Test27-mybatis6</module>
+        <module>Test27-mybatis7</module>
+        <module>Test27-mybatis8</module>
+        <module>Test27-mybatis9</module>
     </modules>
     <packaging>pom</packaging>
 
